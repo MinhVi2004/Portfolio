@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+/* Custom styles for Splide */
+.splide-custom .splide__arrow {
+  background: white;
+  border: 1px solid #e2e8f0;
+  width: 2.5rem;
+  height: 2.5rem;
+  opacity: 1;
+  transition: all 0.2s;
+}
+.splide-custom .splide__arrow:hover {
+  background: #f1f5f9;
+  opacity: 1;
+}
+.splide-custom .splide__arrow--prev {
+  left: -1rem;
+}
+.splide-custom .splide__arrow--next {
+  right: -1rem;
+}
+.splide-custom .splide__pagination__page {
+  background: #cbd5e1;
+  opacity: 1;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.splide-custom .splide__pagination__page.is-active {
+  background: #0ea5e9;
+  transform: scale(1.25);
+}
+.splide-custom .splide__track {
+  padding: 0.5rem 0;
+}
+
+/* Center Mode - 3 slides visible with opacity */
+.splide-center .splide__track {
+  padding: 1rem 0;
+}
+
+.splide-center .splide__slide {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.splide-center .splide__slide:not(.is-active) {
+  opacity: 0.5;
+}
+
+.splide-center .splide__slide.is-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.splide-slide-custom {
+  transform: scale(0.9);
+  transition: all 0.3s ease;
+}
+
+.splide-slide-custom.is-active {
+  transform: scale(1);
+}
+
