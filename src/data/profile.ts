@@ -53,8 +53,8 @@ export const profile: Profile = {
   location: 'Ho Chi Minh City',
   email: 'dvmv2017@gmail.com',
   phone: '0772912452',
-  portfolioUrl: 'https://mv-portfolio-8o9t.vercel.app/',
-  resumeUrl: '/CV.pdf',
+  portfolioUrl: 'https://github.com/MinhVi2004',
+  resumeUrl: '/DuongVanMinhVi_SoftwareEngineer.pdf',
   careerObjective:
   "I'm a Software Engineering student seeking an Intern Software Engineer position to gain hands-on experience, improve programming skills, and contribute to real-world projects.",
   skills: [

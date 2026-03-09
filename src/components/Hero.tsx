@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-full border border-slate-200 bg-white text-slate-900 font-medium text-sm cursor-pointer no-underline hover:border-sky-400 hover:bg-slate-50 transition-all"
           >
-            Github / Portfolio 
+            Github
           </a>
         </div>
 
