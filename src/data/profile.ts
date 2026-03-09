@@ -56,7 +56,7 @@ export const profile: Profile = {
   portfolioUrl: 'https://mv-portfolio-8o9t.vercel.app/',
   resumeUrl: '/CV.pdf',
   careerObjective:
-    'Applying for an Intern Software Engineer position to gain hands-on experience in a professional working environment, enhance programming skills and problem-solving mindset, and contribute value to the company’s projects.',
+  "I'm a Software Engineering student seeking an Intern Software Engineer position to gain hands-on experience, improve programming skills, and contribute to real-world projects.",
   skills: [
     {
       label: 'Languages',

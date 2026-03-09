@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
         </h1>
         <p className="text-xl text-slate-500 mb-4">{profile.title}</p>
 
-        {/* <p className="text-slate-600 max-w-md mb-5">{profile.careerObjective}</p> */}
+        <p className="text-slate-600 max-w-md mb-5">{profile.careerObjective}</p>
 
         <div className="flex flex-wrap gap-2.5 mb-4">
           <a
@@ -43,7 +43,8 @@ const Hero: React.FC = () => {
       </div>
 
       <aside className="relative p-5 rounded-2xl border border-slate-200 bg-white flex flex-col gap-4 shadow-xl shadow-slate-900/5">
-        <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-sky-300 to-green-400" />
+        <div className="">
+<img src="/avatar.jpg" alt="avatar" className="w-100 h-100 rounded-2xl object-cover" />        </div>
         <div>
           <div className="font-semibold text-base">
             Building reliable web applications
