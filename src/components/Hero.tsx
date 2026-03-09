@@ -5,16 +5,16 @@ const Hero: React.FC = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
       <div>
-        <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-slate-100 border border-sky-100 text-sky-500 text-xs uppercase tracking-widest">
+        {/* <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-slate-100 border border-sky-100 text-sky-500 text-xs uppercase tracking-widest">
           <span>Software Engineer Intern</span>
-        </div>
+        </div> */}
 
         <h1 className="text-4xl md:text-5xl font-bold mt-4 mb-2 tracking-tight">
           Hello, I&apos;m <span className="bg-gradient-to-r from-sky-300 to-green-400 bg-clip-text text-transparent">{profile.name}</span>
         </h1>
         <p className="text-xl text-slate-500 mb-4">{profile.title}</p>
 
-        <p className="text-slate-600 max-w-md mb-5">{profile.careerObjective}</p>
+        {/* <p className="text-slate-600 max-w-md mb-5">{profile.careerObjective}</p> */}
 
         <div className="flex flex-wrap gap-2.5 mb-4">
           <a
@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-full border border-slate-200 bg-white text-slate-900 font-medium text-sm cursor-pointer no-underline hover:border-sky-400 hover:bg-slate-50 transition-all"
           >
-            Github / Portfolio
+            Github / Portfolio 
           </a>
         </div>
 
