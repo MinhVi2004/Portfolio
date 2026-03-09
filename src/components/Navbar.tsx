@@ -12,7 +12,9 @@ const Navbar: React.FC = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-xl border-b border-slate-200">
       <div className="max-w-5xl mx-auto px-5 py-3.5 flex items-center justify-between">
         <div className="flex items-center gap-2.5">
-          <div className="w-7 h-7 rounded-full bg-gradient-to-br from-sky-300 to-green-400" />
+          <div className="">
+<img src="/avatar.jpg" alt="avatar" className="w-120 h-120 rounded-2xl object-cover" />        </div>
+        <div></div>
           <div className="flex flex-col">
             <span className="text-sm font-semibold">{profile.name}</span>
             <span className="text-xs text-slate-500">{profile.title}</span>
