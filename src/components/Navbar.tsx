@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
       <div className="max-w-5xl mx-auto px-5 py-3.5 flex items-center justify-between">
         <div className="flex items-center gap-2.5">
           <div className="">
-<img src="/avatar.jpg" alt="avatar" className="w-120 h-120 rounded-2xl object-cover" />        </div>
+<img src="/avatar.jpg" alt="avatar" className="w-20 h-20 rounded-2xl object-cover" />        </div>
         <div></div>
           <div className="flex flex-col">
             <span className="text-sm font-semibold">{profile.name}</span>
